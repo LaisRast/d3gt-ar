@@ -504,17 +504,17 @@ function checkConnectivity() {
 //prints latex in svg-output
 function showGraphLatex() {
   var l = "";
-  if (componentCount == 0) l = "\\[\\text{Draw something.}\\]";
+  if (componentCount == 0) l = "إرسم شيئاً.";
   else if (componentCount == 1)
     l =
-      "\\[\\text{There is only one connected component in this graph. Hence, the graph is connected.}\\]";
+      "يوجد مكون مترابط واحد فقط في هذا البيان. لذا، البيان مترابط.";
   else
     l =
-      "\\[\\text{There are " +
+      "يوجد \\(" +
       componentCount +
-      " connected components in this graph. It is a disconnected graph.}\\]";
+      "\\) مكونات مترابطة في هذا البيان. إنه بيان منفصل.";
 
-  document.getElementById("svg-output").textContent = l;
+  document.getElementById("output-text").innerHTML = l;
   //recall mathjax
   MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 }

@@ -435,9 +435,9 @@ function reverseWalk() {
 function showGraphLatex() {
   var l = "";
   if (walk.length == 0) {
-    l += "\\[\\text{Create a Walk}\\]";
+    l += "انشئ ممر.";
   } else {
-    l += "\\[\\text{Walk : }";
+    l += "الممر: \\(";
     var currentVertex = d3.select(".walk-start").datum();
     l += "v_{" + currentVertex.id + "}";
 
@@ -449,10 +449,10 @@ function showGraphLatex() {
       if ((i + 1) % 10 == 0) l += "\\\\";
     });
 
-    l += "\\]\\[\\text{Length of walk} =" + walk.length + "\\]";
+    l += "\\)<br>طول الممر: \\(" + walk.length + "\\)";
   }
 
-  document.getElementById("svg-output").textContent = l;
+  document.getElementById("output-text").innerHTML = l;
   //recall mathjax
   MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 }

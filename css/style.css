@@ -14,6 +14,7 @@ body {
   min-width: 640px;
   font-size: 16px;
   line-height: 1.5;
+  direction: rtl;
 }
 
 a {
@@ -73,11 +74,11 @@ a:hover {
   content: "";
   border-color: transparent #2ca02c;
   border-style: solid;
-  border-width: 0.35em 0 0.35em 0.45em;
+  border-width: 0.35em 0.35em 0.45em 0;
   display: inline-block;
   height: 0;
   width: 0;
-  left: -12px;
+  right: -12px;
   top: 0px;
   position: relative;
 }
@@ -121,10 +122,11 @@ hr.under-title {
   color: #1f77b4 !important;
   font-size: 20px;
   font-weight: 700;
+  float: right;
 }
 
 .navbar-nav {
-  float: right;
+  float: left;
   font-size: 16px;
 }
 
@@ -265,7 +267,7 @@ a.map-flow:hover {
   border: solid 1px #333;
 }
 
-.next-wrap {
+.prev-wrap {
   float:right;
 }
 
@@ -279,6 +281,7 @@ ul.share-buttons {
   list-style: none;
   padding: 0;
   margin-bottom: 0;
+  float: left;
 }
 
 ul.share-buttons li {
@@ -323,4 +326,9 @@ ul.share-buttons li {
   #myFooter div.social-icons {
     text-align: center;
   }
+}
+
+.rtl-flex-container {
+  display: flex;
+  flex-wrap: wrap;
 }

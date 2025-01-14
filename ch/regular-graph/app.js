@@ -353,22 +353,22 @@ function showGraphLatex() {
       break;
     }
   }
-  var l = "\\[\\text{Degree Sequence}=(";
+  var l = "متتالية الدرجات: \\((";
   degSeq.forEach(function(d, i) {
     if (i !== degSeq.length - 1) l += d + ",";
     else l += d;
     if (i % 15 == 14) l += "\\\\";
   });
-  l += ")\\]";
+  l += ")\\)";
   if (flag) {
     l +=
-      "\\[\\text{Graph is \\(" +
+      "<br>البيان هو \\(" +
       degSeq[0] +
-      "\\)-regular of order }" +
+      "\\)-منتظم برتبة \\(" +
       degSeq.length +
-      "\\]";
+      "\\)";
   }
-  document.getElementById("svg-output").textContent = l;
+  document.getElementById("output-text").innerHTML = l;
   //recall mathjax
   MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 }

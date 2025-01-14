@@ -299,13 +299,13 @@ function checkColoring(){
 function showGraphLatex () {
   var l = "";
   if(nodes.length==0)
-    l = "\\[\\text{Draw something.}\\]";
+    l = "إرسم شيئاً.";
   else if(checkColoring())
-    l = "\\[\\text{The graph is properly colored.}\\]";
+    l = "البيان ملون بشكل فعلي (مناسب).";
   else
-    l = "\\[\\text{Not properly colored. Watch out for those red edges!}\\]";
+    l = "البيان ليس ملون بشكل فعلي. انتبه للأضلع الحمراء.";
 
-  document.getElementById("svg-output").textContent = l;
+  document.getElementById("output-text").innerHTML = l;
   //recall mathjax
   MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 }

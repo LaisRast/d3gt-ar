@@ -306,9 +306,9 @@ showGraphLatex();
 
 //handling output area
 function showGraphLatex() {
-  var l = "\\[\\text{Height of tree is }" + maxDepth + "\\]";
+  var l = "إرتفاع الشجرة هو \\(" + maxDepth + "\\)";
 
-  document.getElementById("svg-output").textContent = l;
+  document.getElementById("output-text").textContent = l;
   //recall mathjax
   MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 }

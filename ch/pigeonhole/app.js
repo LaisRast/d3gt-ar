@@ -357,14 +357,14 @@ function showGraphLatex() {
     return b - a;
   });
 
-  var l = "\\[\\text{Degree Sequence}=(";
+  var l = "متتالية الدرجات: \\((";
   degSeq.forEach(function(d, i) {
     if (i !== degSeq.length - 1) l += d + ",";
     else l += d;
     if (i % 15 == 14) l += "\\\\";
   });
-  l += ")\\]";
-  document.getElementById("svg-output").textContent = l;
+  l += ")\\)";
+  document.getElementById("output-text").textContent = l;
   //recall mathjax
   MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 }

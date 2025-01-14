@@ -1,47 +1,95 @@
-# Contributor Covenant Code of Conduct
+<div dir="rtl">
 
-## Our Pledge
+# ميثاق مدونة قواعد سلوك المساهمين
 
-In the interest of fostering an open and welcoming environment, we ascontributors and maintainers pledge to making participation in our project andour community a harassment-free experience for everyone, regardless of age, bodysize, disability, ethnicity, sex characteristics, gender identity and expression,level of experience, education, socio-economic status, nationality, personalappearance, race, religion, or sexual identity and orientation.
+## تعهدنا
 
-## Our Standards
+نحن كأعضاء ومساهمين وقادة نتعهد بجعل المشاركة في مجتمعنا تجربة خالية من المضايقة للجميع، بغض النظر عن العمر أو البدن أو الإعاقة الظاهرة وغير الظاهرة أو العرق أو الجنس أو مستوى الخبرة أو التعليم أو مستوى المعيشة أو الجنسية أو المظهر الشخصي أو السلالة أو الطائفة أو الديانة أو التوجه.
 
-Examples of behavior that contributes to creating a positive environmentinclude:
+نتعهد بالعمل والتفاعل بطرق تساهم في بناء مجتمع مفتوح ومرحب ومتنوع وشامل وصحي.
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+## معاييرنا
 
-Examples of unacceptable behavior by participants include:
+أمثلة على سلوكيات تساهم في إنشاء بيئة إيجابية لمجتمعنا:
 
-* The use of sexualized language or imagery and unwelcome sexual attention or advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a professional setting
+* إظهار التعاطف واللطف تجاه الآخرين
+* احترام اختلاف الآراء ووجهات النظر والتجارب
+* تقديم ملاحظات بناءة وقبولها بلطف
+* تحمل المسؤولية والاعتذار لمن تأثر/ت بأخطائنا والتعلم من التجربة
+* التركيز على ما هو أفضل ليس فقط بالنسبة لنا كأفراد بل للمجتمع ككل
 
-## Our Responsibilities
+أمثلة على سلوكيات غير مقبولة:
 
-Project maintainers are responsible for clarifying the standards of acceptablebehavior and are expected to take appropriate and fair corrective action inresponse to any instances of unacceptable behavior.
+* استخدام لغة أو صور ذات طابع جنسي، وإبداء اهتمام أو تلميح جنسي من أي نوع
+* التعليقات المتصيدة أو البذيئة أو المهينة، والهجمات الشخصية أو السياسية
+* المضايقة العامة أو الخاصة
+* نشر معلومات الآخرين الخاصة -كالعنوان الفعلي أو عنوان البريد الإلكتروني- دون إذن صريح منهم
+* سلوك آخر الذي يمكن اعتباره غير مناسب في بيئة مهنية
 
-Project maintainers have the right and responsibility to remove, edit, orreject comments, commits, code, wiki edits, issues, and other contributionsthat are not aligned to this Code of Conduct, or to ban temporarily orpermanently any contributor for other behaviors that they deem inappropriate,threatening, offensive, or harmful.
+## مسؤوليات التنفيذ
 
-## Scope
+يتحمل قادة المجتمع مسؤولية توضيح وتنفيذ معاييرنا للسلوك المقبول وسوف يتخذون إجراءات تصحيحية مناسبة وعادلة ردًا على أي سلوك يعتبرونه غير لائق أو تهديديًا  أو مسيئًا أو ضارًا.
 
-This Code of Conduct applies both within project spaces and in public spaceswhen an individual is representing the project or its community. Examples ofrepresenting a project or community include using an official project e-mailaddress, posting via an official social media account, or acting as an appointedrepresentative at an online or offline event. Representation of a project may befurther defined and clarified by project maintainers.
+لدى قادة المجتمع الحق والمسؤولية في إزالة أو تحرير أو رفض تعليقات واستيداعات وتعليمات برمجية وتحريرات wiki وقضايا ومساهمات لا تتوافق مع مدونة قواعد السلوك هذه، وسيبلغون أسباب قرارات الإشراف عندما يكون ذلك مناسبًا.
 
-## Enforcement
+## الإطار
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may bereported by contacting the [project lead](http://me.mrpandey.com/). Allcomplaints will be reviewed and investigated and will result in a response thatis deemed necessary and appropriate to the circumstances. The project team isobligated to maintain confidentiality with regard to the reporter of an incident.Further details of specific enforcement policies may be posted separately.
+تنطبق مدونة قواعد السلوك هذه على جميع مساحات المجتمع، وتنطبق أيضًا عندما يمثل فرد المجتمع رسميًا في الأماكن العامة.
+تتضمن أمثلة تمثيل مجتمعنا استخدام عنوان بريد إلكتروني رسمي، أو النشر عبر حساب رسمي على وسائل التواصل الاجتماعي، أو العمل كممثل/ة معين/ة في حدث عبر الإنترنت أو دون الإنترنت.
 
-Project maintainers who do not follow or enforce the Code of Conduct in goodfaith may face temporary or permanent repercussions as determined by othermembers of the project's leadership.
+## التنفيذ
 
-## Attribution
+قد يتم الإبلاغ عن حالات سلوك مسيء أو مضايق أو غير مقبول إلى قادة المجتمع المسؤولين عن التنفيذ عبر [INSERT CONTACT METHOD].
+ستراجَع جميع الشكاوى والتحقيق فيها بسرعة وبشكل عادل.
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html.
+جميع قادة المجتمع ملزمون باحترام خصوصية وأمن المبلغ عن أي حادث.
 
-[homepage]: https://www.contributor-covenant.org
+## إرشادات التنفيذ
 
-For answers to common questions about this code of conduct, see https://www.contributor-covenant.org/faq
+سيتبع قادة المجتمع إرشادات التأثير المجتمعي هذه في تحديد عواقب أي إجراء يعتبرونه انتهاكًا لمدونة قواعد السلوك هذه:
+
+### 1. تصحيح
+
+**التأثير المجتمعي**: استخدام لغة غير لائقة أو سلوك آخر يعتبر غير مهني أو مرحب في المجتمع.
+
+**العواقب**: تحذير مكتوب خاص من قادة المجتمع، يقدم توضيح حول طبيعة الانتهاك وشرح سبب كون السلوك غير لائق. قد يُطلب اعتذار عام.
+
+### 2. تحذير
+
+**التأثير المجتمعي**: انتهاك خلال حادث واحد أو سلسلة من الأفعال.
+
+**العواقب**: تحذير يتضمن عواقب استمرار السلوك. عدم التفاعل مع الأشخاص المعنيين -بما في ذلك التفاعل غير المرغوب فيه مع أولئك الذين ينفذون مدونة قواعد السلوك- لمهلة محددة. هذا يتضمن تجنب التفاعل مع المساحات الأخرى كما القنوات الخارجية مثل وسائل التواصل الاجتماعي. انتهاك هذه البنود قد يؤدي إلى حظر مؤقت أو دائم.
+
+### 3. حظر مؤقت
+
+**التأثير المجتمعي**: انتهاك خطير لمعايير المجتمع، يتضمن سلوك غير لائق مستدام.
+
+**العواقب**: حظر مؤقت من أي نوع من التفاعل أو التواصل العام مع المجتمع لمهلة محددة. لا يُسمح خلال هذه الفترة بأي تفاعل عام أو خاص مع الأشخاص المعنيين، بما في ذلك التفاعل غير المرغوب فيه مع أولئك الذين ينفذون مدونة قواعد السلوك. انتهاك هذه البنود قد يؤدي إلى حظر دائم.
+
+### 4. حظر دائم
+
+**التأثير المجتمعي**: إظهار نمط من انتهاك معايير المجتمع، بما في ذلك السلوك غير اللائق المستمر أو مضايقة فرد ما أو العدوان تجاه فئات من الأفراد أو الاستخفاف بها.
+
+**العواقب**: حظر دائم من أي نوع من التفاعل العام داخل المجتمع.
+
+## الإسناد
+
+مدونة قواعد السلوك هذه مقتبسة من [ميثاق المساهمين][الصفحة الرئيسة]، الإصدار 2.1 متوفر على
+[https://www.contributor-covenant.org/version/2/1/code_of_conduct.html][الإصدار 2.1].
+
+إرشادات التأثير المجتمعي مستوحاة من
+[تدرج إنفاذ مدونة قواعد السلوك في موزيلا][مدونة قواعد سلوك موزيلا].
+
+للإجابات على أسئلة متكررة حول مدونة قواعد السلوك هذه، الاطلاع على
+[https://www.contributor-covenant.org/faq][الأسئلة المتكررة].
+
+الترجمات متوفرة على
+[https://www.contributor-covenant.org/translations][الترجمات].
+
+[الصفحة الرئيسة]: https://www.contributor-covenant.org
+[الإصدار 2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
+[مدونة قواعد سلوك موزيلا]: https://github.com/mozilla/diversity
+[الأسئلة المتكررة]: https://www.contributor-covenant.org/faq
+[الترجمات]: https://www.contributor-covenant.org/translations
+
+</div>

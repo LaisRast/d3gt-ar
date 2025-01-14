@@ -1,31 +1,43 @@
-# How D3 Graph Theory Works
+<div dir="rtl">
 
-This document explains the structure and working of D3 Graph Theory. It serves as a kickstarter for those who are looking to contribute to the repository.
+# كيف يعمل مستودع نظرية البيان باستخدام D3
 
-D3 Graph Theory is a very simple client-side website. Functioning of its main components are explained below.
+توضح هذه الوثيقة هيكل وعمل مستودع نظرية البيان باستخدام D3.
+تعمل كمنطلق لأولئك الذين يتطلعون للمساهمة في المستودع.
+
+نظرية البيان باستخدام D3 هي موقع ويب بسيط جدًا يعمل على جانب العميل.
+يتم شرح عمل مكوناته الرئيسية أدناه.
 
 ### 1. unit.html
 
-This file provides the barebones structure where all the contents will be loaded. There are two main elements it contains:
+يوفر هذا الملف الهيكل الأساسي حيث سيتم تحميل جميع المحتويات.
+يحتوي على عنصرين رئيسيين:
 
-- **`div#theory-area`:** the theory (text) of the unit is loaded here
-- **`div#app-area`:** the visualization of the unit is loaded here
+- **`div#theory-area`:** يتم تحميل النص النظري للوحدة هنا
+- **`div#app-area`:** يتم تحميل النماذج المرئية للوحدة هنا
 
 ### 2. css/style.css
 
-This stylesheet applies to `unit.html` irrespective of the content loaded into it. Gives an overall look to the page.
+تنطبق هذه الأنماط على `unit.html` بغض النظر عن المحتوى المحمل فيه.
+تمنح الصفحة مظهرًا عامًا.
 
 ### 3. ch/
 
-The content of D3 Graph Theory is broken into several *units* (or chapters). The `ch/` directory contains the visualizations for each unit. Visualization of a unit is contained in directory `ch/unit-name/`, which in turn contains following two files
+يتم تقسيم محتوى نظرية البيان باستخدام D3 إلى عدة *وحدات* (أو فصول).
+يحتوي دليل `ch/` على النماذج المرئية لكل وحدة.
+يحتوي الدليل `ch/unit-name/` على النماذج المرئية للوحدة، والذي يحتوي بدوره على الملفين التاليين:
 
-- **`app.js`:** the visualization of the unit implemented using [d3.js v5](https://d3js.org/)
-- **`app.css`:** styles specifically meant for this visualization
+- **`app.js`:** النماذج المرئية للوحدة مطبقة باستخدام [d3.js v5](https://d3js.org/)
+- **`app.css`:** أنماط مخصصة لهذه النماذج المرئية
 
 ### 4. js/content.js
 
-This file contains text-content and data of all the units in `json` format. The text-contents of each unit are minified and JSON-escaped.
+يحتوي هذا الملف على المحتوى النصي وبيانات جميع الوحدات بصيغة `json`.
 
 ### 5. js/control.js
 
-This script is responsible for loading content into `unit.html`. URL of each unit is of the form `unit.html?unit-name`. The script extracts `unit-name` from query string and accordingly loads the text from `content.js` and visualizations from `ch/unit-name/`.
+هذا السكربت مسؤول عن تحميل المحتوى في `unit.html`.
+عنوان URL لكل وحدة يكون بالشكل `unit.html?unit-name`.
+يقوم السكربت باستخراج `unit-name` من سلسلة الاستعلام وتحميل النص من `content.js` والنماذج المرئية من `ch/unit-name/` وفقًا لذلك.
+
+</div>

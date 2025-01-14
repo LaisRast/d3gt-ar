@@ -1,53 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-116288086-2"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "UA-116288086-2");
-    </script>
+    <script defer src="https://umami.rastanawi.com/script.js" data-website-id="aae5a7ea-0107-458a-a89a-73ea116e4c06"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <!--meta name="viewport" content="width=device-width, initial-scale=1"-->
     <meta
       name="description"
-      content="Graph theory tutorials and visualizations. Interactive, visual, concise and fun. Learn more in less time while playing around."
+      content="دروس ونماذج مرئية في نظرية البيان. تفاعلية، مرئية، مختصرة وممتعة. تعلم المزيد في وقت أقل أثناء الاستمتاع."
     />
-    <meta name="author" content="Avinash Pandey" />
+    <meta name="author" content="أفيناش باندي" />
+    <meta name="translator" content="ليث رستناوي" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta
       name="twitter:title"
-      content="D3 Graph Theory - Interactive Graph Theory Tutorials"
+      content="نظرية البيان باستخدام D3 - دروس تفاعلية في نظرية البيان"
     />
-    <meta name="twitter:image" content="https://i.imgur.com/MAvlQgj.png" />
+    <meta name="twitter:image" content="https://d3gt-ar.com/img/banner.png" />
     <meta
       name="twitter:description"
-      content="Graph theory tutorials and visualizations. Interactive, visual, concise and fun. Experience colors jumping in your face."
+      content="دروس ونماذج مرئية في نظرية البيان. تفاعلية، مرئية، مختصرة وممتعة. اختبر الألوان وهي تقفز أمام عينيك."
     />
 
     <meta property="og:type" content="website" />
     <meta
       property="og:title"
-      content="D3 Graph Theory - Interactive Graph Theory Tutorials"
+      content="نظرية البيان باستخدام D3 - دروس تفاعلية في نظرية البيان"
     />
     <meta
       property="og:description"
-      content="Graph theory tutorials and visualizations. Interactive, visual, concise and fun. Learn more in less time."
+      content="دروس ونماذج مرئية في نظرية البيان. تفاعلية، مرئية، مختصرة وممتعة. تعلم المزيد في وقت أقل."
     />
-    <meta property="og:url" content="https://d3gt.com/" />
-    <meta property="og:image" content="https://i.imgur.com/MAvlQgj.png" />
+    <meta property="og:url" content="https://d3gt-ar.com/" />
+    <meta property="og:image" content="https://d3gt-ar.com/img/banner.png" />
 
-    <title>D3 Graph Theory - Interactive Graph Theory Tutorials</title>
+    <title>نظرية البيان باستخدام D3 - دروس تفاعلية في نظرية البيان</title>
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
 
@@ -84,14 +71,13 @@
       class="navbar navbar-default navbar-fixed-top transparent"
     >
       <div class="container">
-        <a class="navbar-brand" href="index.html">D3 Graph Theory</a>
+        <a class="navbar-brand" href="index.html">نظرية البيان باستخدام D3</a>
         <ul class="nav navbar-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#contents">Contents</a></li>
-          <li><a href="#donate">Donate</a></li>
+          <li><a href="#about">حول</a></li>
+          <li><a href="#faq">الأسئلة الشائعة</a></li>
+          <li><a href="#contents">المحتويات</a></li>
           <li>
-            <a href="https://github.com/mrpandey/d3graphTheory" target="_blank"
+            <a href="https://github.com/LaisRast/d3gt-ar" target="_blank"
               >GitHub <i class="fa fa-external-link"></i
             ></a>
           </li>
@@ -105,10 +91,10 @@
 
         <div id="intro-container">
           <div id="intro">
-            <span id="intro-title">D3 Graph Theory</span><br />
-            <span id="intro-tagline">Learn graph theory interactively.</span
+            <span id="intro-title">نظرية البيان باستخدام D3</span><br />
+            <span id="intro-tagline">تعلم نظرية البيان بشكل تفاعلي.</span
             ><br /><br /><br />
-            <span id="intro-button"><a href="unit.html">START</a></span>
+            <span id="intro-button"><a href="unit.html">ابدأ</a></span>
           </div>
         </div>
       </div>
@@ -119,138 +105,144 @@
         style="margin-top:40px; line-height: 150%;"
       >
         <a
-          href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fd3gt.com%2F&text=D3%20Graph%20Theory%20-%20Interactive%20Graph%20Theory%20Tutorials:%20https%3A%2F%2Fd3gt.com%2F&hashtags=d3js,graph-theory,maths&via=mrpandey360"
+          href="https://twitter.com/intent/tweet?source=https://d3gt-ar.com&text=نظرية%20البيان%20باستخدام%20D3%20-%20دروس%20تفاعلية%20في%20نظرية%20البيان:%20https%3A%2F%2Fd3gt-ar.com"
           target="_blank"
           style="background:#0c7abf;"
-          ><i class="fa fa-twitter"></i>&nbsp;&nbsp;Tweet</a
+          ><i class="fa fa-twitter"></i>&nbsp;&nbsp;غرد</a
         >
 
         <a
-          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fd3gt.com%2F&quote=D3%20Graph%20Theory%20-%20Interactive%20Graph%20Theory%20Tutorials"
+          href="https://www.facebook.com/sharer/sharer.php?u=https://d3gt-ar.com&quote=نظرية%20البيان%20باستخدام%20D3%20-%20دروس%20تفاعلية%20في%20نظرية%20البيان"
           target="_blank"
           style="background:#42609c;"
-          ><i class="fa fa-facebook"></i>&nbsp;&nbsp;Share</a
+          ><i class="fa fa-facebook"></i>&nbsp;&nbsp;شارك</a
         >
 
         <a
-          href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fd3gt.com%2F&media=https%3A%2F%2Fraw.githubusercontent.com%2Fmrpandey%2Fd3graphTheory%2Fmaster%2Fimg%2Fbanner.png&description=Interactive%20and%20colorful%20graph%20theory%20tutorials.%20Visual%2C%20concise%20and%20fun.&hashtags=graph-theory,tutorials,d3js,maths,computer-science"
+          href="https://www.pinterest.com/pin/create/button/?url=https://d3gt-ar.com&media=https://d3gt-ar.com/img/banner.png&description=دروس%20تفاعلية%20وملونة%20في%20نظرية%20البيان.%20مرئية%2C%20موجزة%20وممتعة."
           target="_blank"
           style="background:#ad081b;"
-          ><i class="fa fa-pinterest"></i>&nbsp;&nbsp;Save</a
+          ><i class="fa fa-pinterest"></i>&nbsp;&nbsp;احفظ</a
         >
       </div>
 
       <div id="about" class="container">
         <div class="section-heading text-center">
-          <h1>About</h1>
+          <h1>حول</h1>
         </div>
 
         <div class="row section-content">
           <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
             <div class="quote-wrap">
               <div class="quote">
-                In mathematics, graph theory is the study of graphs, which are
-                mathematical structures used to model pairwise relations between
-                objects. A graph in this context is made up of vertices, nodes,
-                or points which are connected by edges, arcs, or lines.
+                في الرياضيات، نظرية البيان هي دراسة البيانات (جمع بيان)
+                بوصفها بنى رياضية تستعمل لنمذجة العلاقة المتبادلة بين الأغراض.
+                يتكوَّن البيان من رؤوس، تُسمَّى أيضاً عقداً، ووصلات تُسمَّى أيضاً أضلاعاً أو حوافاً.
               </div>
-              <div class="quote-cite">&mdash; Wikipedia</div>
+              <div class="quote-cite">&mdash; مترجم من ويكيبيديا</div>
             </div>
             <p>
-              D3 Graph Theory is a project aimed at anyone who wants to learn
-              graph theory. It provides quick and interactive introduction to
-              the subject. The visuals used in the project makes it an effective
-              learning tool.
+              نظرية البيان باستخدام D3 هو مشروع موجه لأي شخص يريد تعلم نظرية البيان.
+              يقدم مقدمة سريعة وتفاعلية للموضوع.
+              الرسوم المستخدمة في المشروع تجعله أداة تعليمية فعالة.
             </p>
             <p>
-              And yes, it is an open-source project. Check the code at
+              هذا الموقع هو ترجمة
               <a
-                href="https://github.com/mrpandey/d3graphTheory"
+                href="https://d3gt.com"
                 target="_blank"
-                >GitHub</a
+                >للموقع الأصلي</a
               >.
+              الموقع مفتوح المصدر أيضاً!
+              يمكنك الإطلاع على الكود من
+              <a
+                href="https://github.com/LaisRast/d3gt-ar"
+                target="_blank"
+              >هنا</a>.
             </p>
           </div>
         </div>
 
         <div class="row text-center jump-on">
           <div class="col-xs-8 col-xs-offset-2">
-            <a href="unit.html">BEGIN</a>
+            <a href="unit.html">ابدأ التعلم!</a>
           </div>
         </div>
       </div>
 
       <div id="faq" class="container">
         <div class="section-heading text-center">
-          <h1>FAQ</h1>
+          <h1>الأسئلة الشائعة</h1>
         </div>
 
-        <div class="row section-content">
-          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2">
+        <div class="row section-content rtl-flex-container" style="justify-content: center">
+          <div class="col-xs-5 col-sm-4">
             <div class="faq-entry">
-              <h4>Free?</h4>
-              <p>Yes. By the way, it's also open-source.</p>
+              <h4>مجاني؟</h4>
+              <p>نعم. بالمناسبة، إنه أيضًا مفتوح المصدر.</p>
             </div>
 
             <div class="faq-entry">
-              <h4>Difficulty level?</h4>
+              <h4>مستوى الصعوبة؟</h4>
               <p>
-                Easy. Visuals make it easy for an average Joe to go through the
-                material.
+                سهل. النماذج المرئية تجعل من السهل التقدم خلال الدروس.
               </p>
             </div>
           </div>
 
           <div class="col-xs-5 col-sm-4">
             <div class="faq-entry">
-              <h4>Any pre-requisites?</h4>
+              <h4>هل هناك أي متطلبات مسبقة؟</h4>
               <p>
-                None. Very basic combinatorics and set theory might be useful,
-                but not required.
+                لا. لكن معرفة أساسيات التحليل التوافيقي
+                (combinatorics)
+                و نظرية المجموعات
+                (set theory)
+                مفيدة, ولكنها ليست مطلوبة.
               </p>
             </div>
 
             <div class="faq-entry">
-              <h4>Is any certificate provided?</h4>
-              <p>Sorry, no certificates. It's just you and the material.</p>
+              <h4>هل يتم توفير أي شهادة؟</h4>
+              <p>عذرًا، لا توجد شهادات. إنها فقط أنت والمادة.</p>
             </div>
           </div>
         </div>
 
         <div class="row text-center jump-on">
           <div class="col-xs-8 col-xs-offset-2">
-            <a href="unit.html">ENOUGH TALK</a>
+            <a href="unit.html">لنتوقف عن الكلام</a>
           </div>
         </div>
       </div>
 
       <div id="contents" class="container">
         <div class="section-heading text-center">
-          <h1>Contents</h1>
+          <h1>المحتويات</h1>
         </div>
 
         <div class="row section-content">
           <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
             <p>
-              The material is divided into several small units. Each unit
-              contains concise theory and a canvas where you can draw things.
-              Going through small units gives the learner a sense of achievement
-              at each step.
+              الدروس مقسمة إلى عدة وحدات صغيرة.
+              كل وحدة تحتوي على نظرية موجزة ولوحة يمكنك الرسم عليها.
+              المرور بالوحدات الصغيرة يعطي المتعلم إحساسًا بالإنجاز في كل خطوة.
             </p>
 
-            <div id="content-list" class="row">
+            <div id="content-list" class="row rtl-flex-container">
               <!-- div.list-containers are dynamically appended -->
             </div>
 
             <div id="more-list" class="row">
               <div class="col-sm-12">
-                <div class="btn btn-primary btn-block">Show All</div>
+                <div class="btn btn-primary btn-block">عرض الكل</div>
               </div>
             </div>
 
             <p>
-              <b>Note:</b> The project is still expanding. New units are added
-              and existing ones modified from time to time.
+              <b>ملاحظة:</b>
+              المشروع لا يزال يتوسع.
+              يتم إضافة وحدات جديدة وتعديل الوحدات الحالية من وقت لآخر.
             </p>
           </div>
         </div>
@@ -258,102 +250,75 @@
         <div class="row text-center jump-on">
           <div class="col-xs-8 col-xs-offset-2">
             <a id="random-loader" href="unit.html"
-              ><i class="fa fa-random"></i> LOAD A RANDOM UNIT</a
+              ><i class="fa fa-random"></i> إعرض وحدة عشوائية</a
             >
           </div>
         </div>
       </div>
       <!--Contents Ends-->
 
-      <div id="donate" class="container">
-        <div class="section-heading text-center">
-          <h1>Support The Developer</h1>
-        </div>
-
-        <div class="row section-content">
-          <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
-            <p>
-              D3 Graph Theory is developed and maintained by a one-man team. And
-              the project is and will remain free and open-source.
-            </p>
-            <p>
-              So, if you liked this project, please consider a small donation.
-              It provides incentive to the developer and helps him expand and
-              create more such projects.
-            </p>
-
-            <!--div class="donation text-center">
-                        <a id="dbox-donation-button" href="https://donorbox.org/d3graphtheory" target="_blank" style="background:#5cb85c url(https://d1iczxrky3cnb2.cloudfront.net/white_logo.png) no-repeat 56px center; color: #fff; text-decoration: none;font-family: Verdana,sans-serif;display: inline-block;font-size: 16px; padding: 17px 64px 17px 94px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; box-shadow: 0 2px 0 0 #408040; text-shadow: 0 1px rgba(0, 0, 0, 0.3);" >Donate</a>
-                    </div-->
-
-            <div class="donation text-center">
-              <a
-                id="paypal-donation-button"
-                class="donation-button"
-                href="https://www.paypal.me/mrpandey/3usd"
-                target="_blank"
-                style="background:#ffc439; color:#444; text-decoration: none; font-family: Verdana,sans-serif; display: inline-block; font-size: 14px; padding: 17px 50px; border-radius: 4px; box-shadow: 2px 2px 0 0 #aaa; text-shadow: 0 0px rgba(0, 0, 0, 0.3);"
-                >Donate with &nbsp;&nbsp;<img
-                  src="https://d1sssn74k2rfxk.cloudfront.net/assets/paypal-logo-5a20b072b1e631083fe3102a4e58e316.png"
-                  style="width:80px; height:auto;"
-                  alt="PayPal"
-              /></a>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div id="share" class="container">
         <div class="section-heading text-center">
-          <h1>Spread the Word</h1>
+          <h1>ساعد بنشر الموقع</h1>
         </div>
 
         <div class="row section-content">
           <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
             <p>
-              Help the project reach more people. Share this with your friends
-              and colleagues. Spread the word!!
+              ساعد المشروع على الوصول إلى المزيد من الناس.
+              شارك هذا مع أصدقائك وزملائك.
+              انشر الكلمة!!
             </p>
             <div class="text-center">
               <ul class="share-buttons">
                 <li>
                   <a
-                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fd3gt.com%2F&quote=D3%20Graph%20Theory%20-%20Interactive%20Graph%20Theory%20Tutorials"
-                    title="Share on Facebook"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https://www.d3gt-ar.com&quote=نظرية%20البيان%20باستخدام%20D3%20-%20دروس%20تفاعلية%20في%20نظرية%20البيان"
+                    title="شارك على فيسبوك"
                     target="_blank"
                     ><img
-                      alt="Share on Facebook"
+                      alt="شارك على فيسبوك"
                       src="img/icons/social-color-large/facebook.png"
                   /></a>
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fd3gt.com%2F&text=D3%20Graph%20Theory%20-%20Interactive%20Graph%20Theory%20Tutorials:%20https%3A%2F%2Fd3gt.com%2F&hashtags=d3js,graph-theory,maths&via=mrpandey360"
+                    href="https://twitter.com/intent/tweet?source=https://www.d3gt-ar.com&text=نظرية%20البيان%20باستخدام%20D3%20-%20دروس%20تفاعلية%20في%20نظرية%20البيان:%20https%3A%2F%2Fwww.d3gt-ar.com"
                     target="_blank"
-                    title="Tweet"
+                    title="غرد"
                     ><img
-                      alt="Tweet"
+                      alt="غرد"
                       src="img/icons/social-color-large/twitter.png"
                   /></a>
                 </li>
                 <li>
                   <a
-                    href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fd3gt.com%2F&media=https%3A%2F%2Fraw.githubusercontent.com%2Fmrpandey%2Fd3graphTheory%2Fmaster%2Fimg%2Fbanner.png&description=Interactive%20and%20colorful%20graph%20theory%20tutorials.%20Visual%2C%20concise%20and%20fun.&hashtags=graph-theory,tutorials,d3js,maths,computer-science"
+                    href="https://www.pinterest.com/pin/create/button/?url=https://www.d3gt-ar.com&media=https://d3gt-ar.com/img/banner.png&description=دروس%20تفاعلية%20وملونة%20في%20نظرية%20البيان.%20مرئية%2C%20موجزة%20وممتعة."
                     target="_blank"
-                    title="Save"
+                    title="احفظ"
                     ><img
-                      alt="Save"
+                      alt="احفظ"
                       src="img/icons/social-color-large/pinterest.png"
                   /></a>
                 </li>
-                <!--li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fd3gt.com%2F&title=D3%20Graph%20Theory" target="_blank" title="Submit to Reddit"><img alt="Submit to Reddit" src="img/icons/social-color-large/reddit.png" /></a></li-->
+                <!--
                 <li>
                   <a
-                    href="http://www.tumblr.com/share?v=3&u=https%3A%2F%2Fd3gt.com%2F&quote=D3%20Graph%20Theory%20-%20Interactive%20Graph%20Theory%20Tutorials&tags=graph-theory,tutorials,maths,d3js,computer-science"
+                    href="http://www.reddit.com/submit?url=https://www.d3gt-ar.com&title=نظرية%20البيان%20باستخدام%20D3"
                     target="_blank"
-                    title="Post to Tumblr"
+                    title="انشر على ريديت"
                     ><img
-                      alt="Post to Tumblr"
+                      alt="انشر على ريديت"
+                      src="img/icons/social-color-large/reddit.png"
+                  /></a></li>
+                <li>
+                -->
+                  <a
+                    href="http://www.tumblr.com/share?v=3&u=https://www.d3gt-ar.com&quote=نظرية%20البيان%20باستخدام%20D3%20-%20دروس%20تفاعلية%20في%20نظرية%20البيان"
+                    target="_blank"
+                    title="انشر على Tumblr"
+                    ><img
+                      alt="انشر على Tumblr"
                       src="img/icons/social-color-large/tumblr.png"
                   /></a>
                 </li>
@@ -366,20 +331,20 @@
 
     <footer id="myFooter">
       <div class="container first-bar">
-        <div class="row">
+        <div class="row rtl-flex-container">
           <div class="col-sm-3 col-sm-offset-1">
-            <h5>About Developer</h5>
+            <h5>عن المطور</h5>
             <p>
-              I am Avinash Pandey. Maths student. Algorithm lover. Avid
-              programmer. Open source enthusiast.
+              أنا أفيناش باندي. طالب رياضيات. محب للخوارزميات.
+              مبرمج شغوف. متحمس للمصادر المفتوحة.
             </p>
             <p>
-              If you liked this project, please consider a
+              إذا أعجبك هذا المشروع، يرجى التفكير في
               <a
                 href="https://www.paypal.me/mrpandey/3usd"
                 target="_blank"
                 style="color:#f92672;"
-                >small donation</a
+              >تبرع صغير</a
               >.
             </p>
             <p>
@@ -387,7 +352,7 @@
                 href="https://github.com/mrpandey"
                 target="_blank"
                 style="color:#66d9ef;"
-                >My GitHub Profile</a
+                >ملفي على GitHub</a
               >
               <br />
               <i class="fa fa-globe" style="color:#66d9ef;"></i>&nbsp;&nbsp;<a
@@ -400,18 +365,34 @@
           </div>
 
           <div class="col-sm-3 col-sm-offset-1">
-            <h5>About Code</h5>
+            <h5>عن المترجم</h5>
             <p>
-              The code is open source and licensed under
+              أنا ليث رستناوي. حاصل على دكتوره في الرياضيات.
+              محب للبرمجة, ومناصر للبرمجيات مفتوحة المصدر.
+            </p>
+            <p>
+              <i class="fa fa-github" style="color:#66d9ef;"></i>&nbsp;&nbsp;<a
+              href="https://github.com/LaisRast"
+              target="_blank"
+              style="color:#66d9ef;"
+            >ملفي على GitHub</a
+            >
+            </p>
+          </div>
+
+          <div class="col-sm-3 col-sm-offset-1">
+            <h5>عن الكود</h5>
+            <p>
+              الكود مفتوح المصدر ومرخص تحت
               <a
-                href="https://github.com/mrpandey/d3graphTheory/blob/master/LICENSE"
+                href="https://github.com/LaisRast/d3gt-ar/blob/master/LICENSE"
                 target="_blank"
                 style="color:#f92672;"
-                >MIT License</a
+                >رخصة MIT</a
               >.
             </p>
             <p>
-              Made using
+              تم إنشاؤه باستخدام
               <a href="https://d3js.org" target="_blank" style="color:#66d9ef;"
                 >D3.js</a
               >,
@@ -427,13 +408,13 @@
                 style="color:#fd971f;"
                 >jQuery</a
               >
-              and
+              و
               <a
                 href="https://www.mathjax.org/"
                 target="_blank"
                 style="color:#66d9ef;"
                 >MathJax</a
-              >. Hosted on
+              >. مستضاف على
               <a
                 href="https://pages.github.com/"
                 target="_blank"
@@ -442,7 +423,7 @@
               >.
             </p>
             <p>
-              Based on
+              مبني على
               <a
                 href="https://mrpandey.github.io/graphPlayground/"
                 target="_blank"
@@ -452,95 +433,82 @@
             </p>
             <p style="padding-top:8px;">
               <iframe
-                src="https://ghbtns.com/github-btn.html?user=mrpandey&repo=d3graphTheory&type=star&count=true"
+                src="https://ghbtns.com/github-btn.html?user=LaisRast&repo=d3gt-ar&type=star&count=true"
                 style="overflow:hidden; border:0;"
                 width="100"
                 height="20"
               ></iframe>
               <iframe
-                src="https://ghbtns.com/github-btn.html?user=mrpandey&repo=d3graphTheory&type=fork&count=true"
+                src="https://ghbtns.com/github-btn.html?user=LaisRast&repo=d3gt-ar&type=fork&count=true"
                 style="overflow:hidden; border:0;"
                 width="100"
                 height="20"
               ></iframe>
             </p>
           </div>
-
-          <div class="col-sm-3 col-sm-offset-1">
-            <h5>Attributions</h5>
-            <ul>
-              <li>
-                <a href="http://rkirsling.github.io/modallogic/" target="_blank"
-                  >Modal Logic Playground</a
-                >
-              </li>
-              <li>
-                <a href="http://jacquerie.github.io/hh/" target="_blank"
-                  >Havel-Hakimi</a
-                >
-              </li>
-              <li>
-                <a href="http://iconsandcoffee.com/" target="_blank"
-                  >iconsandcoffee.com</a
-                >
-              </li>
-              <li>
-                <a href="https://ghbtns.com/" target="_blank">Github buttons</a>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
 
       <div class="second-bar">
         <div class="container">
-          <div class="row">
-            <div class="col-md-7 col-md-offset-1">
-              <span class="logo"><a href="index.html">D3 Graph Theory</a></span>
-              <span class="copyright"
-                >Copyright (c) 2017-18, Avinash Pandey.</span
-              >
+          <div class="row rtl-flex-container" style="justify-content: center">
+            <div class="col-md-8">
+              <span class="logo"><a href="index.html">نظرية البيان باستخدام D3</a></span>
+              <span class="copyright">
+                الحقوق محفوظة: أفيناش باندي (2017-18) , ليث رستناوي (2025)
+              </span>
             </div>
-            <div class="col-md-4 social-icons">
+            <div class="col-md-3 social-icons">
               <ul class="share-buttons">
                 <li>
                   <a
-                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fd3gt.com%2F&quote=D3%20Graph%20Theory%20-%20Interactive%20Graph%20Theory%20Tutorials"
-                    title="Share on Facebook"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https://d3gt-ar.com&quote=نظرية%20البيان%20باستخدام%20D3%20-%20دروس%20تفاعلية%20في%20نظرية%20البيان"
+                    title="شارك على فيسبوك"
                     target="_blank"
                     ><img
-                      alt="Share on Facebook"
+                      alt="شارك على فيسبوك"
                       src="img/icons/social-inverted/facebook.png"
                   /></a>
                 </li>
                 <li>
                   <a
-                    href="https://twitter.com/intent/tweet?source=https%3A%2F%2Fd3gt.com%2F&text=D3%20Graph%20Theory%20-%20Interactive%20Graph%20Theory%20Tutorials:%20https%3A%2F%2Fd3gt.com%2F&hashtags=d3js,graph-theory,maths&via=mrpandey360"
+                    href="https://twitter.com/intent/tweet?source=https://d3gt-ar.com&text=نظرية%20البيان%20باستخدام%20D3%20-%20دروس%20تفاعلية%20في%20نظرية%20البيان:%20https%3A%2F%2Fd3gt-ar.com"
                     target="_blank"
-                    title="Tweet"
+                    title="غرد"
                     ><img
-                      alt="Tweet"
+                      alt="غرد"
                       src="img/icons/social-inverted/twitter.png"
                   /></a>
                 </li>
                 <li>
                   <a
-                    href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fd3gt.com%2F&media=https%3A%2F%2Fraw.githubusercontent.com%2Fmrpandey%2Fd3graphTheory%2Fmaster%2Fimg%2Fbanner.png&description=Interactive%20and%20colorful%20graph%20theory%20tutorials.%20Visual%2C%20concise%20and%20fun.&hashtags=graph-theory,tutorials,d3js,maths,computer-science"
+                    href="https://www.pinterest.com/pin/create/button/?url=https://d3gt-ar.com&media=https://d3gt-ar.com/img/banner.png&description=دروس%20تفاعلية%20وملونة%20في%20نظرية%20البيان.%20مرئية%2C%20موجزة%20وممتعة."
                     target="_blank"
-                    title="Save"
+                    title="احفظ"
                     ><img
-                      alt="Save"
+                      alt="احفظ"
                       src="img/icons/social-inverted/pinterest.png"
                   /></a>
                 </li>
-                <!--li><a href="http://www.reddit.com/submit?url=https%3A%2F%2Fd3gt.com%2F&title=D3%20Graph%20Theory" target="_blank" title="Submit to Reddit"><img alt="Submit to Reddit" src="img/icons/social-inverted/reddit.png" /></a></li-->
+                <!--
                 <li>
                   <a
-                    href="http://www.tumblr.com/share?v=3&u=https%3A%2F%2Fd3gt.com%2F&quote=D3%20Graph%20Theory%20-%20Interactive%20Graph%20Theory%20Tutorials&tags=graph-theory,tutorials,maths,d3js,computer-science"
+                    href="http://www.reddit.com/submit?url=https://d3gt-ar.com&title=نظرية%20البيان%20باستخدام%20D3"
                     target="_blank"
-                    title="Post to Tumblr"
+                    title="انشر على ريديت"
                     ><img
-                      alt="Post to Tumblr"
+                      alt="انشر على ريديت"
+                      src="img/icons/social-inverted/reddit.png"
+                  /></a>
+                </li>
+                -->
+                <li>
+                  <a
+                    href="http://www.tumblr.com/share?v=3&u=https://d3gt-ar.com&quote=نظرية%20البيان%20باستخدام%20D3%20-%20دروس%20تفاعلية%20في%20نظرية%20البيان"
+                    target="_blank"
+                    title="انشر على Tumblr"
+                    ><img
+                      alt="انشر على Tumblr"
                       src="img/icons/social-inverted/tumblr.png"
                   /></a>
                 </li>

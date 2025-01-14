@@ -1,39 +1,49 @@
-# Contributing Guidelines
+<div dir="rtl">
 
-[![Submit a new issue](https://img.shields.io/badge/add-new%20issue-269f42.svg?style=flat-square)](https://github.com/mrpandey/d3graphTheory/issues/new)
+# إرشادات المساهمة
 
-#### Table of Contents
+[![إضافة مشكلة جديدة](https://img.shields.io/badge/add-new%20issue-269f42.svg?style=flat-square)](https://github.com/LaisRast/d3gt-ar/issues/new)
 
-- [How To Contribute](#how-to-contribute)
-  * [Report Bugs](#report-bugs)
-  * [Suggest Enhancements](#suggest-enhancements)
-  * [Submit Changes](#submit-changes)
-- [Contributor Agreement](#contributor-agreement)
+#### جدول المحتويات
 
-## How To Contribute
+- [كيفية المساهمة](#how-to-contribute)
+  * [الإبلاغ عن الأخطاء](#report-bugs)
+  * [اقتراح تحسينات](#suggest-enhancements)
+  * [تقديم تغييرات](#submit-changes)
+- [اتفاقية المساهم](#contributor-agreement)
 
-First of all, go through [WORKING.md](https://github.com/mrpandey/d3graphTheory/blob/master/WORKING.md) to know how D3 Graph Theory works (it's pretty simple actually). Now, here are some ways in which you can contribute to this project.
+## كيفية المساهمة
 
-**Note:** Whenever creating a new issue, please make sure that the issue doesn't already exists in the issues list. If the issue is already present, you can add a comment there instead of opening a new one.
+أولاً، اطلع على [WORKING.md](https://github.com/LaisRast/d3gt-ar/blob/master/WORKING.md) لتعرف كيف يعمل مستودع نظرية البيان باستخدام D3 (إنه بسيط جدًا في الواقع).
+الآن، إليك بعض الطرق التي يمكنك من خلالها المساهمة في هذا المشروع.
 
-### 1. Report Bugs
+**ملاحظة:** عند إنشاء مشكلة جديدة، يرجى التأكد من أن المشكلة غير موجودة بالفعل في قائمة المشاكل.
+إذا كانت المشكلة موجودة بالفعل، يمكنك إضافة تعليق هناك بدلاً من فتح واحدة جديدة.
 
-If you spot a bug while playing around with the tutorials, please submit a bug report by creating a new issue. Don't forget to add a clear description of the bug.
+### 1. الإبلاغ عن الأخطاء
 
-### 2. Suggest Enhancements
+إذا لاحظت خطأ أثناء التجربة مع الدروس، يرجى تقديم تقرير عن الخطأ عن طريق إنشاء مشكلة جديدة.
+لا تنسَ إضافة وصف واضح للخطأ.
 
-You can suggest a new feature or improvements for an existing one. You can do this by opening a new issue.
+### 2. اقتراح تحسينات
 
-### 3. Submit Changes
+يمكنك اقتراح ميزة جديدة أو تحسينات لميزة موجودة.
+يمكنك القيام بذلك عن طريق فتح مشكلة جديدة.
 
-You can fork/clone this repository, commit some changes and then submit them as a pull request. These changes could be to resolve an issue or could be some of your own changes.
+### 3. تقديم تغييرات
 
-Before you make plan to make some major changes, it is recommended that you open an issue first and have a discussion.
+يمكنك عمل فورك/استنساخ لهذا المستودع، وإجراء بعض التغييرات ثم تقديمها كطلب سحب.
+يمكن أن تكون هذه التغييرات لحل مشكلة أو بعض التغييرات الخاصة بك.
 
-### 4. Documentation
+قبل أن تخطط لإجراء تغييرات كبيرة، يُوصى بفتح مشكلة أولاً وإجراء مناقشة.
 
-If you spot errors in markdown files or think that they can be better, you can directly submit a pull request.
+### 4. التوثيق
 
-## Contributor Agreement
+إذا لاحظت أخطاء في ملفات الماركداون أو تعتقد أنها يمكن أن تكون أفضل، يمكنك تقديم طلب سحب مباشرة.
 
-By contributing, you agree that we may redistribute your work under our [license](https://github.com/mrpandey/d3graphTheory/blob/master/LICENSE). Everyone involved in D3 Graph Theory agrees to abide by our [code of conduct](https://github.com/mrpandey/d3graphTheory/blob/master/CODE_OF_CONDUCT.md).
+## اتفاقية المساهم
+
+بالمساهمة، فإنك توافق على أننا قد نعيد توزيع عملك بموجب [الترخيص](https://github.com/LaisRast/d3gt-ar/blob/master/LICENSE) الخاص بنا.
+يوافق الجميع المشاركين في نظرية البيان باستخدام D3 على الالتزام بـ[ميثاق مدونة قواعد سلوك المساهمين](https://github.com/LaisRast/d3gt-ar/blob/master/CODE_OF_CONDUCT.md) الخاصة بنا.
+
+</div>

@@ -472,11 +472,11 @@ function reverseWalk() {
 function showGraphLatex() {
   var l = "";
   if (walk.length == 0) {
-    l += "\\[\\text{Create a Walk}\\]";
+    l += "انشئ ممر.";
   } else {
     var vertexRep = false;
 
-    l += "\\[\\text{Walk : }";
+    l += "الممر: \\(";
     var currentVertex = d3.select(".walk-start").datum();
     l += "v_{" + currentVertex.id + "}";
 
@@ -490,22 +490,22 @@ function showGraphLatex() {
       if ((i + 1) % 10 == 0) l += "\\\\";
     });
 
-    l += "\\]";
+    l += "\\)";
 
     if (
       d3.select(".walk-start").attr("id") === d3.select(".walk-end").attr("id")
     ) {
-      l += "\\[\\text{This walk is closed.}\\]";
-      if (vertexRep) l += "\\[\\text{It is an example of Circuit.}\\]";
-      else l += "\\[\\text{It is both a Circuit and a Cycle.}\\]";
+      l += "<br>هذا الممر مغلق.";
+      if (vertexRep) l += "<br>إنه مثال على حلقة.";
+      else l += "<br>إنه حلقة ودورة.";
     } else {
-      l += "\\[\\text{This walk is open.}\\]";
-      if (vertexRep) l += "\\[\\text{It is an example of Trail.}\\]";
-      else l += "\\[\\text{It is both a Trail and a Path.}\\]";
+      l += "<br>هذا الممر مفتوح.";
+      if (vertexRep) l += "<br>إنه مثال على سرب.";
+      else l += "<br>إنه سرب ومسار.";
     }
   }
 
-  document.getElementById("svg-output").textContent = l;
+  document.getElementById("output-text").innerHTML = l;
   //recall mathjax
   MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 }

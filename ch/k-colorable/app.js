@@ -572,9 +572,9 @@ function checkColoring() {
 function showGraphLatex() {
   var l = "";
   if (checkColoring()) {
-    if (currentProb == problems.length - 1) l = "\\[\\text{You did it!}\\]";
-    else l = "\\[\\text{You did it! Proceed to next problem.}\\]";
-  } else l = "\\[\\text{You can use at most " + numOfColors + " colors.}\\]";
+    if (currentProb == problems.length - 1) l = "لقد فعلتها!";
+    else l = "لقد فعلتها! انتقل إلى المسألة التالية.";
+  } else l = "يمكنك استخدام \\(" + numOfColors + "\\) ألوان كحد أقصى.";
 
   document.getElementById("output-text").textContent = l;
   //recall mathjax

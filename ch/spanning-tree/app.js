@@ -152,7 +152,7 @@ d3.select("#svg-wrap")
   .attr("id", "graph-overlay")
   .append("div")
   .attr("id", "overlay-text")
-  .html("Ooops!!<br>You disconnected the graph.<br>Retry.");
+  .html("أووبس!!<br>لق قمت بجعل البيان منفصل.<br>جرب مجدداً.");
 
 var edges = svg.append("g").selectAll(".edge");
 
@@ -426,12 +426,12 @@ function checkAndLoad() {
 
 //handling output area
 function showGraphLatex(rem) {
-  var l = "\\[";
-  if (rem == -1) l += "\\text{Crap!!}\\]";
-  else if (rem == 0) l += "\\text{Now that's a spanning tree}\\]";
-  else l += "\\text{Delete " + rem + " more edges.}\\]";
+  var l = "";
+  if (rem == -1) l += "تباً";
+  else if (rem == 0) l += "لقد وجدت شجرة مولدة.";
+  else l += "إحذف \\( " + rem + "\\) ضلع/أضلاع.";
 
-  document.getElementById("output-text").textContent = l;
+  document.getElementById("output-text").innerHTML = l;
   //recall mathjax
   MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 }

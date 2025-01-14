@@ -25,7 +25,7 @@ var problems = [
       [cx - 100, cy - 100]
     ],
     links: [],
-    latex: "\\[\\text{Empty graph: }\\hspace{5px} \\chi(G)=1\\]"
+    latex: "بيان خالي: \\(\\hspace{5px} \\chi(G)=1\\)"
   },
 
   {
@@ -41,7 +41,7 @@ var problems = [
     ],
     links: [[0, 2], [0, 3], [0, 4], [0, 5], [1, 2], [1, 3], [1, 4], [1, 5]],
     latex:
-      "\\[\\text{Non-empty Bipartite Graph: }\\hspace{5px} \\chi(K_{2,4})=2\\]"
+      "بيان ثنائي الفرع غير خالي: \\(\\hspace{5px} \\chi(K_{2,4})=2\\)"
   },
 
   {
@@ -49,7 +49,7 @@ var problems = [
     colors: [1, 4, 4, 4, 4, 4],
     coords: [[cx, cy], [0, cy], [0, 0], [cx, 0], [w, 0], [w, cy]],
     links: [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5]],
-    latex: "\\[\\text{Non-empty Star Graph: }\\hspace{5px} \\chi(S_6)=2\\]"
+    latex: "بيان نجمي غير حالي: \\((\\hspace{5px} \\chi(S_6)=2\\)"
   },
 
   {
@@ -57,7 +57,7 @@ var problems = [
     colors: [4, 2, 4, 2, 4, 2],
     coords: [[0, 0], [0, cy], [0, h], [w, h], [w, cy], [w, 0]],
     links: [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 0]],
-    latex: "\\[\\text{Cycle Graph of Even Order: }\\hspace{5px} \\chi(C_6)=2\\]"
+    latex: "بيان حلقي برتبة زوجية: \\(\\hspace{5px} \\chi(C_6)=2\\)"
   },
 
   {
@@ -65,7 +65,7 @@ var problems = [
     colors: [5, 6, 5, 6, 7],
     coords: [[cx, 0], [w, cy], [w, h], [0, h], [0, cy]],
     links: [[0, 1], [1, 2], [2, 3], [3, 4], [4, 0]],
-    latex: "\\[\\text{Cycle Graph of Odd Order: }\\hspace{5px} \\chi(C_5)=3\\]"
+    latex: "بيان حلقي برتبة فردية: \\(\\hspace{5px} \\chi(C_5)=3\\)"
   },
 
   {
@@ -91,7 +91,7 @@ var problems = [
       [4, 5],
       [5, 1]
     ],
-    latex: "\\[\\text{Wheel Graph of Even Order: }\\hspace{5px} \\chi(W_6)=4\\]"
+    latex: "بيان عجلة برتبة زوجية: \\(\\hspace{5px} \\chi(W_6)=4\\)"
   },
 
   {
@@ -120,7 +120,7 @@ var problems = [
       [5, 6],
       [6, 1]
     ],
-    latex: "\\[\\text{Wheel Graph of Odd Order: }\\hspace{5px} \\chi(W_7)=3\\]"
+    latex: "بيان عجلة برتبة فردية: \\(\\hspace{5px} \\chi(W_7)=3\\)"
   },
 
   {
@@ -144,7 +144,7 @@ var problems = [
       [3, 5],
       [4, 5]
     ],
-    latex: "\\[\\text{Complete Graph: }\\hspace{5px} \\chi(K_6)=6\\]"
+    latex: "بيان تام: \\(\\hspace{5px} \\chi(K_6)=6\\)"
   }
 ];
 

@@ -346,23 +346,23 @@ function showGraphLatex() {
     return b - a;
   });
 
-  var l = "\\[\\text{Degree Sequence}=(";
+  var l = "متتالية الدرجات: \\((";
   degSeq.forEach(function(d, i) {
     if (i !== degSeq.length - 1) l += d + ",";
     else l += d;
     if (i % 15 == 14) l += "\\\\";
   });
-  l += ")\\]";
+  l += ")\\)";
   var order = nodes.length,
     size = links.length;
   if (order > 0 && 2 * size == order * (order - 1)) {
     l +=
-      "\\[\\text{It's a complete graph (}" +
+      "<br>إنه بيان تام (\\(" +
       "K_{" +
       degSeq.length +
-      "} \\text{).}\\]";
+      "}\\)).";
   }
-  document.getElementById("svg-output").textContent = l;
+  document.getElementById("output-text").innerHTML = l;
   //recall mathjax
   MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 }

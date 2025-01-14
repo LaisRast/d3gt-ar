@@ -1,0 +1,81 @@
+English,Arabic
+Acyclic,لا حلقي
+Adjacent,متجاور
+Algorithm,خوارزمية
+Bipartite Graph,بيان ثنائي الفرع
+Boxes,صناديق
+Branch,فرع
+Child,ابن
+Chromatic number,العدد اللوني
+Circuit,حلقة
+Complete graph,بيان تام
+Complete graph,بيان تام
+Component,مكون
+Connected component,مكون مترابط
+Connected graph,بيان مترابط
+Connected,مترابط
+Cycle graph,بيان حلقي
+Cycle,حلقة
+Degree sequence,متتالية الدرجات
+Degree,درجة
+Depth of a vertex,عمق رأس
+Disconnected graph,بيان منفصل
+Disconnected,منفصل
+Disjoint,منفصل
+Edge,ضلع
+Edges,أضلاع
+Empty graph,بيان خالي
+Eulerian Trail,مسرب أويلري
+Eulerian Walk,ممر أويلري
+Eulerian circuit,حلقة أويلرية
+Eulerian graph,رسم بياني أويلري
+Forest,غابة
+Graph coloring,تلوين البيان
+Graph,بيان
+Graphic sequence,متتالية بيانية
+Havel-Hakimi Theorem,مبرهنة هافيل-حكيمي
+Height of tree,ارتفاع الشجرة
+Hub,محور
+Isolated vertex,رأس معزول
+Isolated vertex,رأس معزول
+Isolated vertices,رؤوس معزولة
+Items,عناصر
+Leaf,ورقة
+Length,طول
+Level of a vertex,مستوى رأس
+Maximum degree,الدرجة القصوى
+Minimally connected,مترابط بشكل أصغري
+Minimum degree,الدرجة الدنيا
+Nonincreasing order,ترتيب غير متزايد
+Order,رتبة
+Parent,أب
+Path,مسار
+Pigeonhole principle,مبدأ برج الحمام
+Proper coloring,تلوين فعلي (مناسب)
+Regular graph,بيان منتظم
+Root,جذر
+Rooted tree,شجرة بجذر
+Set,مجموعة
+Size,حجم
+Spanning tree,شجرة مولدة
+Star graph,بيان نجمي
+Theorem,مبرهنة
+Theorem,نظرية
+Totally disconnected,منفصل تمامًا
+Trail,مسرب
+Tree,شجرة
+Unique degree sequence,متتالية درجات فريدة
+Unique path,مسار فريد
+Vertex,رأس
+Vertices,رؤوس
+Walk,ممر
+Wheel graph,بيان عجلة
+bipartition,تجزئة ثنائية
+k-chromatic,k-لوني
+k-colorable,k-قابل للتلوين
+k-regular,k-منتظم
+problem,مسألة
+subgraph, بيان جزئي
+supergraph,بيان حاوٍ
+term (in a sequence),خانة
+terminal vertices,الرؤوس الطرفية

@@ -369,18 +369,18 @@ function checkCycle() {
 function showGraphLatex() {
   var l = "";
 
-  if (nodes.length == 0) l = "\\[\\text{Null Graph. Draw something.}\\]";
-  else if (checkCycle()) l = "\\[\\text{There is cycle. Remove it.}\\]";
+  if (nodes.length == 0) l = "إرسم شيئأً.";
+  else if (checkCycle()) l = "يوجد حلقة. قم بحذفها.";
   else if (nodes.length == links.length + 1)
     l =
-      "\\[\\text{It's a tree with } |V|=" +
+      "إنها شجرة: \\(|V|=" +
       nodes.length +
       ", |E|=" +
       links.length +
-      "\\]";
-  else l = "\\[\\text{This is a forest.}\\]";
+      "\\)";
+  else l = "إنها غابة.";
 
-  document.getElementById("svg-output").textContent = l;
+  document.getElementById("output-text").innerHTML = l;
   //recall mathjax
   MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 }

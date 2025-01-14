@@ -435,13 +435,13 @@ function showGraphLatex(isBipartite) {
     } else {
       setB = setB.slice(0, -1);
     }
-    l = "\\[\\text{Set } A = \\{" + setA + "\\} \\]";
-    l += "\\[\\text{Set } B = \\{" + setB + "\\} \\]";
+    l = "المجموعة \\(A = \\{" + setA + "\\} \\)";
+    l += "<br>المجموعة \\(B = \\{" + setB + "\\} \\)";
   } else if (isBipartite != false) {
-    l = "\\[\\text{Draw bipartite graph.}\\]";
-  } else l = "\\[\\text{Not Bipartite}\\]";
+    l = "إرسم بيان ثنائي الفرع.";
+  } else l = "ليس ثنائي الفرع.";
 
-  document.getElementById("svg-output").textContent = l;
+  document.getElementById("output-text").innerHTML = l;
   //recall mathjax
   MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 }

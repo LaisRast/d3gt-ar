@@ -15,6 +15,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
+  direction: rtl;
 }
 
 a {
@@ -123,10 +124,11 @@ body::-webkit-scrollbar-thumb {
   color: #1f77b4 !important;
   font-size: 20px;
   font-weight: 700;
+  float: right;
 }
 
 .navbar-nav {
-  float: right;
+  float: left;
   font-size: 16px;
 }
 
@@ -475,8 +477,8 @@ ul.share-buttons li {
 #myFooter .second-bar .logo {
   font-size: 28px;
   font-weight: bold;
-  padding-right: 12px;
-  border-right: solid 1px #888;
+  padding-left: 12px;
+  border-left: solid 1px #888;
   line-height: 30px;
 }
 
@@ -489,11 +491,16 @@ ul.share-buttons li {
 }
 
 #myFooter .second-bar .copyright {
-  padding-left: 8px;
+  padding-right: 8px;
 }
 
 @media screen and (max-width: 991px) {
   #myFooter .second-bar {
     text-align: center;
   }
+}
+
+.rtl-flex-container {
+  display: flex;
+  flex-wrap: wrap;
 }

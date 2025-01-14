@@ -83,8 +83,8 @@ $(document).ready(function() {
     $(this)
       .next(".toggle-content")
       .slideToggle();
-    if ($(this).hasClass("target-hidden")) $(this).text("Click to Hide");
-    else $(this).text("Click to Show");
+    if ($(this).hasClass("target-hidden")) $(this).text("انقر للإخفاء");
+    else $(this).text("انقر للإظهار");
     $(this).toggleClass("target-hidden");
   });
 
@@ -118,7 +118,7 @@ function resizeContent() {
 function loadContent(query) {
   var currentChap = contentData[query];
 
-  document.title = currentChap["content-title"] + " - D3 Graph Theory";
+  document.title = currentChap["content-title"] + " - نظرية البيان باستخدام D3";
 
   //initially: status -> not hidden; app, footer -> hidden
   $("#status-container").toggleClass("hidden");

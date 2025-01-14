@@ -418,18 +418,18 @@ function showGraphLatex(isBipartite) {
     //complete or not
     if (links.length == countA * countB) {
       l =
-        "\\[\\text{Complete Bipartite (\\(K_{" +
+        "ثنائي الفرع تام(\\(K_{" +
         countA +
         "," +
         countB +
-        "}\\))} \\\\";
-      l += "|E|=" + countA + "\\cdot" + countB + "=" + links.length + "\\]";
-    } else l = "\\[\\text{Bipartite, but not complete.}\\]";
+        "}\\))";
+      l += "<br>\\(|E|=" + countA + "\\cdot" + countB + "=" + links.length + "\\)";
+    } else l = "ثنائي الفرع, لكن ليس تام.";
   } else if (isBipartite != false) {
-    l = "\\[\\text{Draw something bipartite.}\\]";
-  } else l = "\\[\\text{Not Bipartite}\\]";
+    l = "ارسم بيان ثنائي الفرع.";
+  } else l = "ليس ثنائي الفرع.";
 
-  document.getElementById("svg-output").textContent = l;
+  document.getElementById("output-text").innerHTML = l;
   //recall mathjax
   MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 }

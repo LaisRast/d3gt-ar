@@ -296,11 +296,11 @@ function showGraphLatex() {
   var order = nodes.length,
     size = links.length;
 
-  var l = "\\[\\text{Order}=" + order + "\\]\\[\\text{Size}=" + size + "\\]";
+  var l = "الرتبة: \\(" + order + "\\)<br>الحجم: \\(" + size + "\\)";
   if (2 * size === order * (order - 1)) {
-    l += "\\[\\text{Size maximized!!}\\]";
+    l += "<br>الحجم في أقصى حد";
   }
-  document.getElementById("svg-output").textContent = l;
+  document.getElementById("output-text").innerHTML = l;
   //recall mathjax
   MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
 }
