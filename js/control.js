@@ -118,7 +118,7 @@ function resizeContent() {
 function loadContent(query) {
   var currentChap = contentData[query];
 
-  document.title = currentChap["content-title"] + " - نظرية البيان باستخدام D3";
+  document.title = currentChap["content-title"] + " - نظرية البيان بشكل تفاعلي";
 
   //initially: status -> not hidden; app, footer -> hidden
   $("#status-container").toggleClass("hidden");
